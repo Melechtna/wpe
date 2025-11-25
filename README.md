@@ -4,6 +4,8 @@ WPE is a lightweight GUI + CLI wrapper around [mpvpaper](https://github.com/Ghos
 
 TLDR Frontend handles the configuration, mpvpaper does the rest.
 
+<img width="1545" height="1039" alt="Screenshot_2025-11-25_16-02-23" src="https://github.com/user-attachments/assets/554e1cfa-db22-4af0-85e8-fa5b150afaac" />
+
 ## Features
 
 - Per-monitor wallpaper configuration with scale/folder/shuffle with available timer
