@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=WPE-Autostart
+Comment=Easily add WPE as an autostart application without the GUI
+Exec=wpe -c
+Icon=io.melechtna.wpe
+Terminal=false
+Categories=Utility;Graphics;

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.melechtna.wpe</id>
+  <name>WallPaper Engine</name>
+  <summary>GUI frontend for configuring mpvpaper wallpapers</summary>
+  <icon type="stock">io.melechtna.wpe</icon>
+  <categories>
+    <category>Utility</category>
+    <category>Graphics</category>
+  </categories>
+  <launchable type="desktop-id">io.melechtna.wpe.desktop</launchable>
+</component>

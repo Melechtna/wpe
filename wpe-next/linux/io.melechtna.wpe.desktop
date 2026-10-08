@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=WallPaper Engine
+Comment=Configure mpvpaper wallpapers from a friendly UI
+Exec=wpe
+Icon=io.melechtna.wpe
+Terminal=false
+Categories=Utility;Graphics;

@@ -1,0 +1,27 @@
+set dotenv-load := true
+
+dist := "dist"
+
+default:
+    @just --list
+
+build-host:
+    cd wpe-next-host && cargo build --release
+
+build-gui:
+    cd wpe-next && cargo build --release --bin wpe-next
+
+build-helper:
+    cd wpe-next-helper && cargo build --release
+
+build: build-host build-gui build-helper
+    rm -rf {{dist}} && mkdir {{dist}}
+    cp wpe-next-host/target/release/wpe-next-host {{dist}}/
+    cp wpe-next/target/release/wpe-next {{dist}}/
+    cp wpe-next-helper/target/release/wpe-next-helper {{dist}}/
+    echo "Built to {{dist}}/"
+
+clean:
+    cd wpe-next-host && cargo clean
+    cd wpe-next && cargo clean
+    cd wpe-next-helper && cargo clean
