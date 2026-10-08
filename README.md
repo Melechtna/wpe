@@ -1,5 +1,7 @@
 # WallPaper Engine (WPE)
 
+Archive: I am archiving this, as I no longer see the point to it. Some of the code may be useful else where, and I was working on a replacement for it that could use webview for more true live wallpapers, which I never published, but I've kind of moved away from this project as a whole. I'll add the unfinished WPE-Next, and anyone can feel free to take it further.
+
 WPE is a lightweight GUI + CLI wrapper around [mpvpaper](https://github.com/GhostNaN/mpvpaper).  It is an Iced based frontend, provides TOML configuration, display detection, takes per-monitor settings and translates them into mpvpaper invocations.  
 
 TLDR Frontend handles the configuration, mpvpaper does the rest.
